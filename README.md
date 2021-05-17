@@ -1,0 +1,6 @@
+# Project-Sisdat
+APLIKASI RATE YOUR WARTEG
+
+Yosua Prima Gultom - 140810170038
+HUSEIN - 1408101700
+Raihan Muhammad - 1408101700
