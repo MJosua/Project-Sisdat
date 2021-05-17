@@ -1,0 +1,185 @@
+.tabel {
+float: left;	
+margin-left:10;
+margin-top:41;
+}
+.field{
+	padding:10;
+	margin-left:17;
+	margin-top:20;
+	margin-right:20;
+	border: 3px solid #00000f;
+}
+
+.formm {
+float : left;
+margin-left:80;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: black;
+}
+.fa-google {
+  background: #dd4b39;
+  color: black;
+}
+.fa-android {
+  background: #a4c639;
+  color: black;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.baris {
+	float : left;
+	width:190;
+	padding:10;
+}
+
+ #section1 {
+	 padding:20;
+	 color: #000; background-color: #673ab7;
+	 height:100;
+	 width: 100%;
+}
+hr.shadow{
+   margin-top:0;
+   border-color:#673ac7;
+   border-top:solid;
+   background-color:#673ac7;
+   height:10;
+   border-top:none;
+   margin-bottom:0;
+}
+
+@media screen and (max-width: 100%) {
+    #section1
+}	 
+.judul{
+width:430;
+background-color:#FC4F50;
+border:none;
+color:black;
+padding: 16px 32px;
+margin: 4px 2px;"	
+}
+
+p {
+margin-left:0px;
+margin-top:0px;
+margin-bottom:0px;
+}
+
+hr.pisah{
+	border-style:solid;
+	border-top: 5px solid #0000;
+    border-bottom: 0px ;
+    height: 0px;
+	margin-top: 0px;
+	margin-bottom:0px;
+	
+}	
+	
+.baris2{
+	float : left;
+	padding:10;
+	width:250;
+	
+	line-height: 48.5px;
+
+	}
+	
+
+.baris3{
+	float : left;
+	width:165;
+	padding:10;
+
+	}	
+
+
+.baris4{
+	float : left;
+	padding:10;
+	width:250;
+	
+	}	
+
+.H22 {
+	margin-top:22;
+}
+.H60{
+	margin-top:60;
+}
+.H19 {
+	margin-top:19;
+}	
+.H30 {
+	margin-top:30;
+}	
+.H170 {
+	margin-top:170;
+}	
+
+.D2405 {
+	padding:5px;
+	height:24;
+	width:240;
+	border:solid 1px;
+	margin-bottom:5;
+}	
+.D240 {
+	padding:5px;
+	height:24;
+	width:240;
+	border:solid 1px;
+	margin-top:13;
+}
+.D2400 {
+	padding:5px;
+	height:24;
+	width:240;
+	border:solid 1px;
+}
+.D560 {
+	padding:5px;
+	height:76;
+	width:560;
+	border:solid 1px;
+	margin-top:13;
+}
+.D153 {
+	padding:5px;
+	height:24;
+	width:153;
+	border:solid 1px;
+	margin-top:13;
+	position:absolute;"
+}
+.D152 {
+	padding:5px;
+	height:24;
+	width:152.2;
+	border:solid 1px;
+	margin-top:13;
+	position:absolute;
+}
+.tombol {
+	width:430;
+	background-color:#4CAF50;
+	border:none;
+	color:black;
+	padding: 16px 32px;
+	margin: 4px 2px;"
+	
+}
+
+
