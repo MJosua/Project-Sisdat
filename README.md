@@ -1,6 +1,16 @@
-# Project-Sisdat
-APLIKASI RATE YOUR WARTEG
+#Tugas UAS SISDAT
+=======================
 
-Yosua Prima Gultom - 140810170038
-HUSEIN - 1408101700
-Raihan Muhammad - 1408101700
+```bash
+
+##Anggota Kelompok 
+Yosua Prima Gultom          : 140810170038
+Husein                      : 1408101700xx
+Raihan M.                   : 1408101700xx
+    
+
+```
+
+
+#Program RATE YOUR WARTEG
+=============================
