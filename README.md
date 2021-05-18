@@ -5,8 +5,8 @@
 
 ##Anggota Kelompok 
 Yosua Prima Gultom          : 140810170038
-Husein                      : 1408101700xx
-Raihan M.                   : 1408101700xx
+Husein                      : 140810170035
+Raihan M.                   : 140810170032
     
 
 ```
