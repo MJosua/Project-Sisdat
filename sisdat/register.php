@@ -49,7 +49,7 @@ if(isset($_SESSION["username"])){
 			<a href="#"><h3>FAQ</h3></a>
 			<hr class="line">
 			<h2 style="padding-left:15; color: White;"><i style="color: red;" class="fas fa-map-marker-alt"></i> UAS SISDAT</h2>
-<h3><p ><font size="4">Yosua Gultom 140810170038<br>Husein Irfan 1408101700</p></font>
+<h3><p ><font size="4">Yosua Gultom 140810170038<br>Husein Irfan 140810170035<br>Raihan Muhammad Aditia 140810170032</p></font>
 			<hr class="lineShading">
 			</div>
 		</div>
