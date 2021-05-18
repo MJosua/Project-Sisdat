@@ -56,3 +56,6 @@ session_start();
         ?>
     </tbody>
     </table>
+	<nav>
+        <a href="pembeli.php">[+] Tambah Komentar</a>
+    </nav>

@@ -26,6 +26,7 @@
       if($count == 1) {
          session_start();
          $_SESSION['username'] = $username;
+		 $_SESSION['email'] = $row['email'];
          $_SESSION['ID'] = $row['ID']; // set session untuk ID
          header("location:RM/siap.php");
       }else {

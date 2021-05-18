@@ -6,7 +6,12 @@
 	<?php
 	require_once('config.php');
 
-
+session_start();
+if(isset($_SESSION["username"])){
+	
+}else{
+echo header("location:index.php");
+}
     
 ?>	
 <script>
@@ -23,39 +28,30 @@
 		
 		<div class="container">	
 		 <h2 class="title"><span>Tambah Komentar</span></h2>	  			
-				<form  method="post" name="" action="proses_input.php" enctype="multipart/form-data">
+				<form method="post" name="input" action="proses_pembelian.php">
 <table border=0 align="center" cellpadding=5 cellspacing=0>
 <tr>
-<td colspan=3><center><font size=5>Input Data </font></center></td>
+<td colspan=3><center><font size=5>Input Data Pembeli</font></center></td>
 </tr>
 <tr>
-<td>E-Mail</td><td>:</td><td><input type="text" name="email"></td>
+<td>Email</td><td>:</td><td><input readonly type="text"  type="text" name="email" value="<?php echo " " .$_SESSION['username'] . ""; ?>"></td>
 </tr>
 <tr>
-<td>Nama</td><td>:</td><td><input type="text" name="nama"></td>
+<td>Nama</td><td>:</td><td><input readonly  type="text" name="nama" value=" <?php echo " " .$_SESSION['email'] . ""; ?>">  </td>
 </tr>
 <tr>
-<td>Alamat Pemesanan</td><td>:</td><td><input type="text" name="alamat"></td>
+<td>Warteg</td><td>:</td><td><input type="text" name="alamat"></td>
 </tr>
 <tr>
-<td>Nomor Telepon</td><td>:</td><td><input type="text" name="nomorhp"></td>
-</tr>
-<tr>
-<td>Game</td><td>:</td><td><input type="text" name="idgame"></td>
-</tr>
-<tr>
-<td>Jumlah Pesanan</td><td>:</td><td><input type="text" name="jumlah"></td>
-</tr>
-
+<td>Komentar</td><td>:</td><td><input  type="text" name="idgame" value="" ></td>
 </tr>
 <tr>
 <td colspan=2>&nbsp;</td>
-<td><input type="submit" name="submit" value="simpan"></td>
+<td><input type="submit" name="input" value="Input Sekarang"></td>
 </tr>
 <tr>
-<td colspan=3><a href="./datapembeli.php">Data Pembeli</a></td>
+<td colspan=3><a href="datapenjualan.php">Data Penjualan</a></td>
 </tr>
-
 </table>
 </form>
 			

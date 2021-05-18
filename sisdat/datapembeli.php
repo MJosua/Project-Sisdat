@@ -20,10 +20,9 @@ session_start();
         <tr>
             <th>Email</th>
             <th>Nama</th>
-            <th>Alamat Pemesan</th>
-            <th>Nomor Telpon</th>
-            <th>Game</th>
-            <th>Jumlah Pesanan</th>
+            <th>Warteg Tujuan</th>
+            <th>Komentar</th>
+
         </tr>
     </thead>
     
@@ -36,9 +35,8 @@ session_start();
             echo "<td>".$data['email']."</td>";
             echo "<td>".$data['nama']."</td>";
             echo "<td>".$data['alamat']."</td>";
-            echo "<td>".$data['notelp']."</td>";
             echo "<td>".$data['idgame']."</td>";
-            echo "<td>".$data['jumlah']."</td>";
+
             
             
             echo "</tr>";
